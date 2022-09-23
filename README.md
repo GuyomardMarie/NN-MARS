@@ -12,7 +12,7 @@ Article [2] (French) : Régression logistique à base de splines adaptatives ave
 
 The different classes and functions in order to compute NN-MARS in two forms : 'NNMARS_Functions.py' and 'NNMARS_Functions.ipynb'
 
-An example of ho to use the NN-MARS : 'NNMARS_main.html' (compiled) and 'NNMARS_main.ipynb'
+An example of how to use the NN-MARS : 'NNMARS_main.html' (compiled) and 'NNMARS_main.ipynb'
 
 
 **About the NN-MARS:**
