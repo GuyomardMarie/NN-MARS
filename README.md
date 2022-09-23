@@ -42,12 +42,12 @@ $$b = [b_{11}, b_{12}, \dots, b_{d1}, b_{d2}]^T \in \mathbb{R}^{2d} $$
 
 $$\beta = [\beta_{11}, \beta_{12}, \dots, \beta_{d1}, \beta_{d2}] \in \mathbb{R}^{2d} $$
 
-$$W = \begin{bmatrix}
+$$ W = \begin{bmatrix}
 		-1 & 0 & \dots & 0 \\
 		1 & 0 & \dots & 0 \\
 		0 & -1 & \dots & 0 \\
 		0 & 1 & \dots & 0 \\
-	\end{bmatrix} \in \mathbb{R}^{2d \times d} \\$$
+	\end{bmatrix} \in \mathbb{R}^{2d \times d}$$
 	
 $$\theta = [\beta_0, \beta, b^T]^T = [\beta_0, \beta_1, \dots, \beta_d, b_1, \dots, b_p]^T $$
 
