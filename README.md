@@ -19,7 +19,7 @@ An example of how to use the NN-MARS : 'NNMARS_main.html' (compiled) and 'NNMARS
 
 The proposed algorithm is available here for **binary** classification problems. 
 
-Let suppose we have $N$ independant and identically distributed pairs $(x^{(i)}, y^{(i)}})_{i=1}^{N}$. We consider the following neural network :
+Let suppose we have $N$ independant and identically distributed pairs $(x^{(i)}, y^{(i)})_{i=1}^{N}$. We consider the following neural network :
 
 $$f(x) = \hat{\mathbb{P}}\left(Y=1|X\right) = \sigma(\psi_X(\theta)).$$
 	
