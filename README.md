@@ -18,7 +18,7 @@ An example of ho to use the NN-MARS : 'NNMARS_main.html' (compiled) and 'NNMARS_
 
 The proposed algorithm is available here for **binary** classification problems. 
 
-Let suppose we have $N$ independant and identically distributed pairs $\{x^{(i)}, y^{(i)}\}_{i=1}^{N}$. We consider the following neural network :
+Let suppose we have $N$ independant and identically distributed pairs ${x^{(i)}, y^{(i)}}_{i=1}^{N}$. We consider the following neural network :
 
 $$f(x) = \hat{\mathbb{P}}\left(Y=1|X\right) = \sigma(\psi_X(\theta)).$$
 	
@@ -47,5 +47,8 @@ $$\bar{W} = \begin{bmatrix}
 	\end{bmatrix} \in \mathbb{R}^{2d \times d} \\$$
 	
 $$\theta = [\beta_0, \beta, b^T]^T = [\beta_0, \beta_1, \dots, \beta_d, b_1, \dots, b_p]^T $$
+
+
+<img width="1217" alt="Schema_NNMARS" src="https://user-images.githubusercontent.com/93378786/191957351-97269ef7-e9fe-4520-ab8b-8bceb7fe64d0.png">
 
 *Remark : for binar categorical variable, only one node is created.*
