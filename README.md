@@ -26,9 +26,11 @@ $$f(x) = \hat{\mathbb{P}}\left(Y=1|X\right) = \sigma(\psi_X(\theta)).$$
 
 with 
 
-$$\sigma = \frac{1}{1+\exp(-X)} $$
+$$\sigma(X) = \frac{1}{1+\exp(-X)} $$
+
 and 
-$$\psi_X(\theta) = \beta_0 + \beta \phi\left(\bar{W}X^T+b\right).$$
+
+$$\psi_X(\theta) = \beta_0 + \beta \phi\left(WX^T+b\right).$$
 
 such as
 
@@ -40,7 +42,7 @@ $$b = [b_{11}, b_{12}, \dots, b_{d1}, b_{d2}]^T \in \mathbb{R}^{2d} $$
 
 $$\beta = [\beta_{11}, \beta_{12}, \dots, \beta_{d1}, \beta_{d2}] \in \mathbb{R}^{2d} $$
 
-$$\bar{W} = \begin{bmatrix}
+$$W = \begin{bmatrix}
 		-1 & 0 & \dots & 0 \\
 		1 & 0 & \dots & 0 \\
 		0 & -1 & \dots & 0 \\
